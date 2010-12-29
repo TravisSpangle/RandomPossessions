@@ -20,4 +20,10 @@
 @property (nonatomic) int valueInDollars;
 @property (nonatomic, readonly) NSDate *dateCreated;
 
+
+
+- (id)initWithPossessionName:(NSString *)name
+			  valueInDollars:(int)value
+				serialNumber:(NSString *)sNumber;
+
 @end

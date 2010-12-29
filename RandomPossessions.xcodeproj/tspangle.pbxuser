@@ -4,6 +4,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 539C963B12CA4E4300BC11E4 /* RandomPossessions */;
 		activeTarget = 8DD76F960486AA7600D96B5E /* RandomPossessions */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* RandomPossessions */,
+		);
 		codeSenseManager = 539C964812CA4E4D00BC11E4 /* Code sense */;
 		executables = (
 			539C963B12CA4E4300BC11E4 /* RandomPossessions */,
@@ -38,6 +41,13 @@
 		userBuildSettings = {
 		};
 	};
+	08FB7796FE84155DC02AAC07 /* RandomPossessions.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 393}}";
+			sepNavSelRange = "{461, 0}";
+			sepNavVisRange = "{0, 461}";
+		};
+	};
 	539C963B12CA4E4300BC11E4 /* RandomPossessions */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -54,6 +64,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -61,6 +72,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = RandomPossessions;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);

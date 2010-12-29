@@ -5,7 +5,7 @@
 int main (int argc, const char * argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
-	NSMutableArray *items = [[[NSMutableArray alloc] init] autorelease];
+	NSMutableArray *items = [[NSMutableArray alloc] init];
 	
 	for(int i = 0; i < 10; i++){
 		[items addObject:[Possession randomPossession]];
@@ -14,6 +14,10 @@ int main (int argc, const char * argv[]) {
 	for (Possession *item in items) {
 		NSLog(@"%@", item);
 	}
+	
+	[items release];
+	items = nil;
+	
     [pool drain];
     return 0;
 }

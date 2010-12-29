@@ -91,13 +91,23 @@
 -(NSString *)description
 {
 	NSString *descriptionString = 
-	[[[NSString alloc] initWithFormat:@"%@ (%@): Worth $%d, Recorded on %@",
+	[[NSString alloc] initWithFormat:@"%@ (%@): Worth $%d, Recorded on %@",
 	 possessionName,
 	 serialNumber,
 	 valueInDollars,
-	  dateCreated] autorelease];
+	  dateCreated];
 	
-	return descriptionString;
+	return [descriptionString autorelease];
+}
+
+#pragma mark Dealloc
+
+- (void)dealloc
+{
+	[possessionName release];
+	[serialNumber release];
+	[dateCreated release];
+	[super dealloc];
 }
 	
 @end

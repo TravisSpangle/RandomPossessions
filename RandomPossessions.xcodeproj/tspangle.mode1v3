@@ -291,7 +291,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -316,7 +316,7 @@
 							<real>208</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>161 119 1194 652 0 0 1280 778 </string>
+						<string>161 117 1194 652 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -334,7 +334,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>RandomPossessions.m</string>
+								<string>Possession.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -342,16 +342,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>RandomPossessions.m</string>
+										<string>Possession.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>539C96D412CAFC5700BC11E4</string>
+										<string>539C96F812CBBCFE00BC11E4</string>
 										<key>history</key>
 										<array>
 											<string>539C96A212CAFAFC00BC11E4</string>
-											<string>539C96C912CAFB9100BC11E4</string>
-											<string>539C96CA12CAFB9100BC11E4</string>
+											<string>539C96F512CBBCFE00BC11E4</string>
+											<string>539C96F612CBBCFE00BC11E4</string>
+											<string>539C96F712CBBCFE00BC11E4</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -365,7 +366,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {964, 425}}</string>
 								<key>RubberWindowFrame</key>
-								<string>161 119 1194 652 0 0 1280 778 </string>
+								<string>161 117 1194 652 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -385,7 +386,7 @@
 								<key>Frame</key>
 								<string>{{0, 430}, {964, 181}}</string>
 								<key>RubberWindowFrame</key>
-								<string>161 119 1194 652 0 0 1280 778 </string>
+								<string>161 117 1194 652 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -532,7 +533,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>315292759.79396898</real>
+	<real>315342078.83977199</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -558,7 +559,7 @@
 		<string>/Users/tspangle/Dropbox/IPhone/Book Work/RandomPossessions/RandomPossessions.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>161 119 1194 652 0 0 1280 778 </string>
+	<string>161 117 1194 652 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

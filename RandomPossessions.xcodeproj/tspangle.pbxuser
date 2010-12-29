@@ -37,6 +37,16 @@
 			PBXPerProjectTemplateStateSaveDate = 315248195;
 			PBXWorkspaceStateSaveDate = 315248195;
 		};
+		perUserProjectItems = {
+			539C967612CADBC700BC11E4 /* XCBuildMessageTextBookmark */ = 539C967612CADBC700BC11E4 /* XCBuildMessageTextBookmark */;
+			539C967712CADBC700BC11E4 /* PBXTextBookmark */ = 539C967712CADBC700BC11E4 /* PBXTextBookmark */;
+			539C967A12CADBDB00BC11E4 /* XCBuildMessageTextBookmark */ = 539C967A12CADBDB00BC11E4 /* XCBuildMessageTextBookmark */;
+			539C967B12CADBDB00BC11E4 /* PBXTextBookmark */ = 539C967B12CADBDB00BC11E4 /* PBXTextBookmark */;
+			539C967E12CADBEB00BC11E4 /* PBXTextBookmark */ = 539C967E12CADBEB00BC11E4 /* PBXTextBookmark */;
+			539C967F12CADBF000BC11E4 /* PBXTextBookmark */ = 539C967F12CADBF000BC11E4 /* PBXTextBookmark */;
+			539C968012CADBF000BC11E4 /* PBXTextBookmark */ = 539C968012CADBF000BC11E4 /* PBXTextBookmark */;
+			539C968112CADBF000BC11E4 /* PBXTextBookmark */ = 539C968112CADBF000BC11E4 /* PBXTextBookmark */;
+		};
 		sourceControlManager = 539C964712CA4E4D00BC11E4 /* Source Control */;
 		userBuildSettings = {
 		};
@@ -91,6 +101,98 @@
 	539C964812CA4E4D00BC11E4 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	539C965C12CAD29600BC11E4 /* Possession.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 393}}";
+			sepNavSelRange = "{516, 22}";
+			sepNavVisRange = "{0, 661}";
+		};
+	};
+	539C965D12CAD29600BC11E4 /* Possession.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 1352}}";
+			sepNavSelRange = "{3001, 0}";
+			sepNavVisRange = "{42, 1290}";
+		};
+	};
+	539C967612CADBC700BC11E4 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Potential leak of an object allocated on line 50 and stored into 'newPossession'";
+		fRef = 539C965D12CAD29600BC11E4 /* Possession.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 52;
+		rType = 1;
+	};
+	539C967712CADBC700BC11E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 539C965D12CAD29600BC11E4 /* Possession.m */;
+		name = "Possession.m: 53";
+		rLen = 0;
+		rLoc = 1971;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 1696;
+	};
+	539C967A12CADBDB00BC11E4 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Potential leak of an object allocated on line 94 and stored into 'descriptionString'";
+		fRef = 539C965D12CAD29600BC11E4 /* Possession.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 99;
+		rType = 1;
+	};
+	539C967B12CADBDB00BC11E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 539C965D12CAD29600BC11E4 /* Possession.m */;
+		name = "Possession.m: 100";
+		rLen = 0;
+		rLoc = 3006;
+		rType = 0;
+		vrLen = 239;
+		vrLoc = 2787;
+	};
+	539C967E12CADBEB00BC11E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 539C965D12CAD29600BC11E4 /* Possession.m */;
+		name = "Possession.m: 100";
+		rLen = 0;
+		rLoc = 3006;
+		rType = 0;
+		vrLen = 282;
+		vrLoc = 2759;
+	};
+	539C967F12CADBF000BC11E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* RandomPossessions.m */;
+		name = "RandomPossessions.m: 19";
+		rLen = 0;
+		rLoc = 461;
+		rType = 0;
+		vrLen = 461;
+		vrLoc = 0;
+	};
+	539C968012CADBF000BC11E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 539C965C12CAD29600BC11E4 /* Possession.h */;
+		name = "Possession.h: 23";
+		rLen = 22;
+		rLoc = 516;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 0;
+	};
+	539C968112CADBF000BC11E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 539C965D12CAD29600BC11E4 /* Possession.m */;
+		name = "Possession.m: 98";
+		rLen = 0;
+		rLoc = 3001;
+		rType = 0;
+		vrLen = 1290;
+		vrLoc = 42;
 	};
 	8DD76F960486AA7600D96B5E /* RandomPossessions */ = {
 		activeExec = 0;

@@ -80,7 +80,7 @@
 	[self setPossessionName:name];
 	[self setValueInDollars:value];
 	[self setSerialNumber:sNumber];
-	dateCreated = [[[NSDate date] alloc] init];
+	dateCreated = [[NSDate alloc] init];
 	
 	//Return the address of the newly initialzied object
 	return self;
